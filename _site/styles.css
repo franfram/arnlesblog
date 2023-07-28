@@ -1,0 +1,24 @@
+/* css styles */
+
+.cell-output {
+  max-height: 400px;
+  overflow: scroll;
+  background: #F5F5F5
+}
+
+
+
+.blog-preview-box {
+ border: 4px #F5F5F5;
+  border-style: solid;
+  background-color: white;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+
+.sec-head {
+  padding-left: 1em;
+}
+
+
