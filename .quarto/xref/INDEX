@@ -10,5 +10,8 @@
   },
   "posts/welcome/index.qmd": {
     "index.html": "aac3244b"
+  },
+  "posts/post-with-code/post1.ipynb": {
+    "post1.html": "a7065208"
   }
 }

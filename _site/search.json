@@ -26,5 +26,12 @@
     "title": "Welcome To My Blog",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/post-with-code/post1.html",
+    "href": "posts/post-with-code/post1.html",
+    "title": "Francis Felici",
+    "section": "",
+    "text": "What’s the difference between an embedding and an index? note that the word “embedding” is a little bit ambiguous, since we can be refering to an embedded text or to an embedding engine."
   }
 ]
