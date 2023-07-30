@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/post-with-code/post1.html",
+    "href": "posts/post-with-code/post1.html",
+    "title": "post-1",
+    "section": "",
+    "text": "What’s the difference between an embedding and an index? note that the word “embedding” is a little bit ambiguous, since we can be refering to an embedded text or to an embedding engine.\n\n\nCode\nprint(\"hello\")\n\n\nhello"
+  },
+  {
+    "objectID": "posts/post-with-code/vaporwave-palettes.html",
+    "href": "posts/post-with-code/vaporwave-palettes.html",
+    "title": "vaporwave colors",
+    "section": "",
+    "text": "Want to have cool vaporwave palettes? LOOK NO MORE.\nTaken from https://github.com/dantaki/vapeplot\n\n\nCode\n\n# This could be named vaporpalettes, maybe be a class (to do something like vaporpalettes.cool for a palette), and be a package to import it.  \npalettes = {\n    \"vaporwave\": [\"#94D0FF\", \"#8795E8\", \"#966bff\", \"#AD8CFF\", \"#C774E8\", \"#c774a9\", \"#FF6AD5\", \"#ff6a8b\", \"#ff8b8b\", \"#ffa58b\", \"#ffde8b\", \"#cdde8b\", \"#8bde8b\", \"#20de8b\"],\n    \"cool\": [\"#FF6AD5\", \"#C774E8\", \"#AD8CFF\", \"#8795E8\", \"#94D0FF\"],\n    \"crystal_pepsi\": [\"#FFCCFF\", \"#F1DAFF\", \"#E3E8FF\", \"#CCFFFF\"],\n    \"mallsoft\": [\"#fbcff3\", \"#f7c0bb\", \"#acd0f4\", \"#8690ff\", \"#30bfdd\", \"#7fd4c1\"],\n    \"jazzcup\": [\"#392682\", \"#7a3a9a\", \"#3f86bc\", \"#28ada8\", \"#83dde0\"],\n    \"sunset\": [\"#661246\", \"#ae1357\", \"#f9247e\", \"#d7509f\", \"#f9897b\"],\n    \"macplus\": [\"#1b4247\", \"#09979b\", \"#75d8d5\", \"#ffc0cb\", \"#fe7f9d\", \"#65323e\"],\n    \"seapunk\": [\"#532e57\", \"#a997ab\", \"#7ec488\", \"#569874\", \"#296656\"],\n    \"avanti\": [\"#FB4142\", \"#94376C\", \"#CE75AD\", \"#76BDCF\", \"#9DCFF0\"],\n    \"neon_night\": [\"#FF61A6\", \"#D783FF\", \"#7161EF\", \"#3A4E9B\", \"#2D3045\"],\n    \"pastel_dream\": [\"#FFB1C1\", \"#FFCF56\", \"#8DFFB9\", \"#80A1C1\", \"#D4A5A5\"],\n    \"retro_future\": [\"#FF6B6B\", \"#00A3E1\", \"#FFB3E1\", \"#C4C4A5\", \"#2E2E2E\"],\n    \"digital_ocean\": [\"#05C1F0\", \"#0B61A4\", \"#5A009D\", \"#B80058\", \"#FF0000\"],\n    \"synthwave\": [\"#FF0055\", \"#FB4D3D\", \"#FED304\", \"#00E156\", \"#009FB7\"],\n    \"chillwave\": [\"#A1FFFE\", \"#719D89\", \"#FFC3A7\", \"#D0A3BF\", \"#81559B\"],\n    \"dreamscape\": [\"#DAFFEF\", \"#B2B2FF\", \"#FFC3C2\", \"#FAA7B8\", \"#D4A5E3\"],\n    \"cyberpunk\": [\"#F6019D\", \"#7200DA\", \"#01C0C8\", \"#FF570A\", \"#FFAA00\"],\n    # NEW, MAYBE REMOVE\n    \"dreamy_sunset\": [\"#FFABAB\", \"#FFC3FF\", \"#D4A5FF\", \"#B0E0E6\", \"#94DFFF\"],\n    \"nostalgia_neon\": [\"#FF4EA6\", \"#00B2FF\", \"#AB83A1\", \"#23007B\", \"#090909\"],\n    \"ocean_breeze\": [\"#1BE7FF\", \"#6EEB83\", \"#E4FF1A\", \"#E8AA14\", \"#FF5714\"],\n    \"cyber_paradise\": [\"#FF00E7\", \"#6A00FF\", \"#006AFF\", \"#00FFB3\", \"#DFFF00\"],\n    \"retro_beach\": [\"#FFC3A0\", \"#FF61A6\", \"#AB83A1\", \"#23007B\", \"#533D7F\"],\n    \"future_city\": [\"#FE53BB\", \"#F5D300\", \"#00DBE1\", \"#74F2CE\", \"#ACB6E5\"],\n    \"tropical_twilight\": [\"#B1E5FB\", \"#FF61EA\", \"#D65EF5\", \"#8458B3\", \"#4B0082\"],\n    \"neon_nature\": [\"#FF00CC\", \"#3333FF\", \"#66FF66\", \"#FF3300\", \"#FFFF00\"],\n}\n\navant_garde_palettes = {\n    \"glitch_art\": [\"#FF00FF\", \"#00FF00\", \"#0000FF\", \"#FF0000\", \"#00FFFF\"],\n    \"futurist_fantasy\": [\"#C1FF00\", \"#FF0090\", \"#9400D3\", \"#4B0082\", \"#00008B\"],\n    \"abstract_expression\": [\"#C51162\", \"#00796B\", \"#FFB300\", \"#6200EA\", \"#795548\"],\n    \"urban_decay\": [\"#BCAAA4\", \"#D32F2F\", \"#0288D1\", \"#7CB342\", \"#FBC02D\"],\n    \"surreal_sunset\": [\"#8E44AD\", \"#E74C3C\", \"#3498DB\", \"#F39C12\", \"#2ECC71\"],\n    \"cubist_cool\": [\"#D81B60\", \"#1E88E5\", \"#43A047\", \"#FDD835\", \"#FB8C00\"],\n    \"dada_dive\": [\"#AD1457\", \"#1976D2\", \"#388E3C\", \"#F9A825\", \"#F4511E\"],\n    \"bauhaus_blast\": [\"#C2185B\", \"#1976D2\", \"#00796B\", \"#AFB42B\", \"#E64A19\"],\n    \"metaphysical_mind\": [\"#880E4F\", \"#1565C0\", \"#2E7D32\", \"#F9A825\", \"#D84315\"],\n    \"neoplasticism\": [\"#D50000\", \"#304FFE\", \"#00C853\", \"#FFD600\", \"#000000\"],\n}\n\n# palettes.update(avant_garde_palettes)\n\n\nimport matplotlib.pyplot as plt\n\ndef display_palettes(palettes):\n    n = len(palettes)\n    rows = int(n**0.5)\n    cols = int(n / rows) + (n % rows &gt; 0)\n\n    fig, axes = plt.subplots(rows, cols, figsize=(cols * 2.5, rows * 2))\n    for ax in axes.flatten():\n        ax.axis('off')\n\n    for idx, (name, colors) in enumerate(palettes.items()):\n        row = idx // cols\n        col = idx % cols\n        ax = axes[row, col]\n        ax.axis('on')\n        for j, c in enumerate(colors):\n            ax.hlines(j, 0, 1, colors=c, linewidth=15)\n        ax.set_ylim(-1, len(colors))\n        ax.set_title(name)\n        ax.spines['top'].set_visible(False)\n        ax.spines['right'].set_visible(False)\n        ax.spines['left'].set_visible(False)\n        ax.spines['bottom'].set_visible(False)\n        ax.get_xaxis().set_visible(False)\n        ax.get_yaxis().set_ticks([])\n\n    plt.tight_layout()\n    plt.show()\n\ndisplay_palettes(palettes)\n\n\n\n\n\n\n\nCode\npalettes['vaporwave']\n\n\n['#94D0FF',\n '#8795E8',\n '#966bff',\n '#AD8CFF',\n '#C774E8',\n '#c774a9',\n '#FF6AD5',\n '#ff6a8b',\n '#ff8b8b',\n '#ffa58b',\n '#ffde8b',\n '#cdde8b',\n '#8bde8b',\n '#20de8b']\n\n\n\n\nCode\n\nimport plotly.express as px\ndf = px.data.iris()\n\nfig = px.scatter(df,\n                 x=\"sepal_width\",\n                 y=\"sepal_length\",\n                 color=\"species\",\n                 size='petal_length',\n                 hover_data=['petal_width'],\n                #  color_discrete_sequence=[\"blue\", \"goldenrod\", \"magenta\"])\n                 color_discrete_sequence=palettes['neon_night']\n)\nfig.show()\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nhow to use them with plotly?"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "vaporwave colors\n\n\n\n\n\n\n\n\n\n\n\n\nInvalid Date\n\n\nFrancis Felici\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJul 28, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\npost-1\n\n\n\n\n\n\n\n\n\n\n\n\nInvalid Date\n\n\nFrancis Felici\n\n\n\n\n\n\n  \n\n\n\n\nvaporwave colors\n\n\n\n\n\n\n\n\n\n\n\n\nInvalid Date\n\n\nFrancis Felici\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJul 25, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "posts/post-with-code/perks-of-traumatic-childhood.html",
+    "href": "posts/post-with-code/perks-of-traumatic-childhood.html",
+    "title": "vaporwave colors",
+    "section": "",
+    "text": "No perks       ¯\\_(ツ)_/¯\n\n\nCode\nprint(\"hello\")\n\n\nhello\n\n\ndfasdfasdfasd"
+  }
+]
