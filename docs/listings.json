@@ -2,11 +2,11 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/post-with-code/HyDE-tutorial.html",
       "/posts/post-with-code/vaporwave-palettes.html",
       "/posts/post-with-code/index.html",
       "/posts/post-with-code/post1.html",
       "/posts/post-with-code/perks-of-traumatic-childhood.html",
+      "/posts/post-with-code/HyDE-tutorial.html",
       "/posts/welcome/index.html"
     ]
   }

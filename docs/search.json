@@ -32,7 +32,7 @@
     "href": "index.html",
     "title": "Welcome",
     "section": "",
-    "text": "How does HyDE work?\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nvaporwave colors\n\n\n\n\n\n\n\n\n\n\n\n\nInvalid Date\n\n\nFrancis Felici\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJul 28, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\npost-1\n\n\n\n\n\n\n\n\n\n\n\n\nInvalid Date\n\n\nFrancis Felici\n\n\n\n\n\n\n  \n\n\n\n\nvaporwave colors\n\n\n\n\n\n\n\n\n\n\n\n\nInvalid Date\n\n\nFrancis Felici\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJul 25, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "vaporwave colors\n\n\n\n\n\n\n\n\n\n\n\n\nInvalid Date\n\n\nFrancis Felici\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJul 28, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\npost-1\n\n\n\n\n\n\n\n\n\n\n\n\nInvalid Date\n\n\nFrancis Felici\n\n\n\n\n\n\n  \n\n\n\n\nvaporwave colors\n\n\n\n\n\n\n\n\n\n\n\n\nInvalid Date\n\n\nFrancis Felici\n\n\n\n\n\n\n  \n\n\n\n\nHyDE tutorial\n\n\n\n\n\n\n\n\n\n\n\n\nInvalid Date\n\n\nFrancis Felici\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJul 25, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/vaporwave-palettes.html",
@@ -51,8 +51,15 @@
   {
     "objectID": "posts/post-with-code/HyDE-tutorial.html",
     "href": "posts/post-with-code/HyDE-tutorial.html",
-    "title": "How does HyDE work?",
+    "title": "HyDE tutorial",
     "section": "",
-    "text": "---\ntitle: \"HyDE tutorial\"\nauthor: \"Francis Felici\"\ndate: \"I dunno\"\nformat:\n    html:\n        code-fold: true\n---\n\nWe are going to use LlamaIndex\nWe are going to download this arxiv paper to test HyDE: https://arxiv.org/abs/2305.17066\n\nimport arxiv\n\n# Define paper ID (number sequence at the end of the url)\npaper_id = \"2305.17066\"\n\n# Download paper\npaper = next(arxiv.Search(id_list=[\"2305.17066\"]).results()).download_pdf(filename=\"mindstorms-paper.pdf\")\n\nSo the basic way in which we use LLM’s to perform search over documents is we compare how similar the user’s query is to each chunk of text we have from our documents (i.e., we perform something like cosine similarity between the vector that represents the user’s query and each vector that represents a chunk of text we have).\nThe problem with this approach is that sometimes the user query is not very relatable to the chunk of text the LLM actually needs to provide an answer. So when we perform a similarity search (e.g., cosine similarity) to find the most appropriate chunks of text, we end up retrieving chunks that are not very useful.\nOne way to tackle this issue is to use Hypotetical Document Embeddings\n\nfrom IPython.display import Image\nImage(filename=\"figs/HyDE.excalidraw.png\")\n\n\n\n\nSo did HyDE improved our search? TODO: Test accuracy"
+    "text": "We are going to use LlamaIndex\nWe are going to download this arxiv paper to test HyDE: https://arxiv.org/abs/2305.17066\nCode\nimport arxiv\n\n# Define paper ID (number sequence at the end of the url)\npaper_id = \"2305.17066\"\n\n# Download paper\npaper = next(arxiv.Search(id_list=[\"2305.17066\"]).results()).download_pdf(filename=\"mindstorms-paper.pdf\")\nSo the basic way in which we use LLM’s to perform search over documents is we compare how similar the user’s query is to each chunk of text we have from our documents (i.e., we perform something like cosine similarity between the vector that represents the user’s query and each vector that represents a chunk of text we have).\nThe problem with this approach is that sometimes the user query is not very relatable to the chunk of text the LLM actually needs to provide an answer. So when we perform a similarity search (e.g., cosine similarity) to find the most appropriate chunks of text, we end up retrieving chunks that are not very useful.\nOne way to tackle this issue is to use Hypotetical Document Embeddings"
+  },
+  {
+    "objectID": "posts/post-with-code/HyDE-tutorial.html#how-does-hyde-work",
+    "href": "posts/post-with-code/HyDE-tutorial.html#how-does-hyde-work",
+    "title": "HyDE tutorial",
+    "section": "How does HyDE work?",
+    "text": "How does HyDE work?\n\n\nCode\nfrom IPython.display import Image\nImage(filename=\"figs/HyDE.excalidraw.png\")\n\n\n\n\n\nSo did HyDE improved our search? TODO: Test accuracy"
   }
 ]
